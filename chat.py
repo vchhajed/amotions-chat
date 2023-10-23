@@ -1,6 +1,5 @@
 import streamlit as st
 import pinecone
-from PyPDF2 import PdfReader
 from langchain.document_loaders import PyPDFDirectoryLoader
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.agents.agent_toolkits import create_conversational_retrieval_agent, create_retriever_tool
