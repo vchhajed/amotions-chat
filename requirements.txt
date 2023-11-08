@@ -1,5 +1,5 @@
 langchain
-openai
+openai==v0.28.1
 tiktoken
 qdrant-client
 streamlit
